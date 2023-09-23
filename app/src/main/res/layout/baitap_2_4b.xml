@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:background="#4CAF50"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="48sp"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="Chuyển đổi năm dương lịch"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Năm dương lịch"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:hint="Nhập năm dương lịch"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/texttest"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/dongLai"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:backgroundTint="#FFAEACAC"
+            android:text="Chuyển đổi"
+            android:textColor="@color/black"
+            app:backgroundTint="#BFBFBF" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Năm âm lịch"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            app:background="#BFBFBF"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </TableRow>
+</LinearLayout>

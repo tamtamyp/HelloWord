@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true">
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="Đăng nhập"
+        android:textAllCaps="true"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView9"
+        android:text="UserName:"
+        android:textColor="@color/material_dynamic_neutral0"
+        android:textSize="16sp"
+        tools:ignore="UnknownId" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/textviewUser"
+        android:hint="Username"
+        tools:ignore="UnknownId" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView10"
+        android:text="Password:"
+        android:textColor="@color/material_dynamic_neutral0"
+        android:textSize="16sp"
+        tools:ignore="UnknownId" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/textviewUser"
+        android:layout_marginTop="8dp"
+        android:hint="passwords"
+        android:inputType="inputType"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="ĐĂNG NHẬP" />
+
+    <Button
+        android:id="@+id/dongLai"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="QUÊN MK" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TRỢ GIÚP" />
+</RelativeLayout>

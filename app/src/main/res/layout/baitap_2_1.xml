@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="12">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="12"
+            android:gravity="center"
+            android:text="ĐĂNG NHẬP"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="12">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="Username"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_weight="8"
+            android:hint="nhập ID" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="12">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="Password"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_weight="8"
+            android:hint="nhập mật khẩu" />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="12">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="OK" />
+
+        <Button
+            android:id="@+id/dongLai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="HỦY" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="QUÊN MK" />
+    </TableRow>
+</TableLayout>

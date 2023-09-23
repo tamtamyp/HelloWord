@@ -3,7 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Learn/Android/HelloWord/app/src/main/res/layout/activity_main.xml" value="0.18478260869565216" />
+        <entry key="..\:/Learn/Android/HelloWord/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Learn/Android/HelloWord/app/src/main/res/layout/baitap_2_1.xml" value="0.18931159420289856" />
+        <entry key="..\:/Learn/Android/HelloWord/app/src/main/res/layout/baitap_2_11.xml" value="0.35260416666666666" />
+        <entry key="..\:/Learn/Android/HelloWord/app/src/main/res/layout/baitap_2_2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Learn/Android/HelloWord/app/src/main/res/layout/baitap_2_3.xml" value="0.35260416666666666" />
+        <entry key="..\:/Learn/Android/HelloWord/app/src/main/res/layout/baitap_2_4.xml" value="0.22552083333333334" />
+        <entry key="..\:/Learn/Android/HelloWord/app/src/main/res/layout/baitap_2_4a.xml" value="0.264" />
+        <entry key="..\:/Learn/Android/HelloWord/app/src/main/res/layout/baitap_2_4b.xml" value="0.23867753623188406" />
+        <entry key="..\:/Learn/Android/HelloWord/app/src/main/res/layout/baitap_2_5.xml" value="0.23867753623188406" />
+        <entry key="..\:/Learn/Android/HelloWord/app/src/main/res/layout/linear_layout.xml" value="0.264" />
+        <entry key="..\:/Learn/Android/HelloWord/app/src/main/res/layout/popupmanhinh.xml" value="0.23867753623188406" />
       </map>
     </option>
   </component>

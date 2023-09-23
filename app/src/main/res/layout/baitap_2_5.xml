@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:background="#9C27B0"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="48sp"
+            android:layout_weight="3"
+            android:text="Màn hình chính phụ"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="DuplicateIds" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/manHinhPhu1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            app:backgroundTint="#9C27B0"
+            android:text="Màn hình phụ 1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/manHinhPhu2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            app:backgroundTint="#9C27B0"
+            android:text="Màn hình phụ 2" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/texttest"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/dongLai"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Đóng lại"
+            android:textColor="@color/white"
+            app:backgroundTint="#9C27B0" />
+
+    </TableRow>
+</LinearLayout>
